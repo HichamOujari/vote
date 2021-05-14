@@ -1,0 +1,381 @@
+.container{
+    
+}
+.container>.main{
+    
+}
+
+.VoterInformation{
+    background: #ddd;
+    margin-top: 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.VoterInformation>.title{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.VoterInformation>.formInfos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.VoterInformation>.formInfos>.top{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 700px;
+}
+.VoterInformation>.formInfos>.top>.Username,
+.VoterInformation>.formInfos>.top>.Middlename,
+.VoterInformation>.formInfos>.top>.FirstName,
+.VoterInformation>.formInfos>.top>.Job,
+.VoterInformation>.formInfos>.top>.Occupation,
+.VoterInformation>.formInfos>.top>.Address{
+    margin-right: 10px;
+}
+.VoterInformation>.formInfos>.top>.Username>.title,
+.VoterInformation>.formInfos>.top>.Middlename>.title,
+.VoterInformation>.formInfos>.top>.FirstName>.title,
+.VoterInformation>.formInfos>.top>.Job>.title,
+.VoterInformation>.formInfos>.top>.Occupation>.title,
+.VoterInformation>.formInfos>.top>.Address>.title{
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.VoterInformation>.formInfos>.top>.Username>.Input,
+.VoterInformation>.formInfos>.top>.Middlename>.Input,
+.VoterInformation>.formInfos>.top>.FirstName>.Input,
+.VoterInformation>.formInfos>.top>.Job>select,
+.VoterInformation>.formInfos>.top>.Occupation>.Input,
+.VoterInformation>.formInfos>.top>.Address>.Input{
+    border: 1px solid rgb(201, 195, 195);
+    height: 30px;
+    color: rgb(121, 111, 111);
+    padding-left: 4px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(179, 176, 176);
+    outline: none;
+}
+.VoterInformation>.formInfos>.top>.Job>select{
+    border: 1px solid rgb(201, 195, 195);
+    height: 30px;
+    color: rgb(156, 151, 151);
+    padding-left: 4px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(179, 176, 176);
+    outline: none;
+    width: 180px;
+}.VoterInformation>.formInfos>.top>.Address>.Input{
+    width: 300px;
+}
+.VoterInformation>.formInfos>.Check{
+    margin-top: 40px;
+    display: flex;
+    border: 1px solid rgb(197, 186, 186);
+    border-radius: 20px;
+    padding: 10px;
+    min-width: 330px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.VoterInformation>.formInfos>.Check>input{
+    transform: scale(1.4);
+    margin-top: 25px;
+    margin-right: 15px;
+}
+.VoterInformation>.formInfos>.Check>.text{
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.VoterInformation>.formInfos>.btnSubmit{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.VoterInformation>.formInfos>.btnSubmit>.submit{
+    margin-right: 40px;
+    outline: none;
+    border: 1px solid transparent;
+    background: rgb(90, 190, 70);
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.LocationImformation{
+    background: #ddd;
+    margin-top: 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.LocationImformation>.Header{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    padding-bottom: 0;
+    border-bottom: 1px solid rgb(151, 145, 145);
+}
+.LocationImformation>.Header>.title{
+    font-weight: 800;
+    margin-right: 10px;
+}
+.LocationImformation>.Header>.text{
+    color: rgb(92, 85, 85);
+}
+
+
+.LocationImformation>.Infos{
+    margin-top: 30px;
+}
+.LocationImformation>.Infos>.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.LocationImformation>.Infos>.btnSubmit{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.LocationImformation>.Infos>.btnSubmit>.submit{
+    margin-right: 40px;
+    outline: none;
+    border: 1px solid transparent;
+    background: rgb(90, 190, 70);
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.InputSection{
+    margin-right: 40px;
+    display: flex;
+}
+
+.InputSection>.select{
+    
+}
+.InputSection>.select>.title{
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.InputSection>.select>.Input{
+    border: 1px solid rgb(201, 195, 195);
+    height: 30px;
+    color: rgb(121, 111, 111);
+    padding-left: 4px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(179, 176, 176);
+    outline: none;
+    width: 200px;
+}
+.InputSection>.Code{
+    margin-left: 20px;
+}
+.InputSection>.Code>.title{
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.InputSection>.Code>.Input{
+    border: 1px solid rgb(201, 195, 195);
+    height: 30px;
+    color: rgb(121, 111, 111);
+    padding-left: 4px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(179, 176, 176);
+    outline: none;
+    width: 60px;
+}
+
+
+.Calendar{
+    background: #ddd;
+    margin-top: 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Calendar>.header{  
+    display: flex;
+    justify-content: space-between;
+}
+.Calendar>.header>.Selected{
+    
+}
+.Calendar>.header>.Selected>.date{
+    font-weight: 800;
+    font-size: 16px;
+}
+.Calendar>.header>.Selected>.day{
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.Calendar>.header>.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 25px;
+    margin-top: 14px;
+}
+.Calendar>.header>.right>.Icon{
+    
+}
+.Calendar>.header>.right>select{
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.Calendar>.Content{
+    background: rgba(255, 255, 255, 0.89);
+}
+
+.Calendar>.Content>.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.Calendar>.Content>.top>.toleft{
+    cursor: pointer;
+}
+
+.Calendar>.Content>.top>.Days{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Calendar>.Content>.top>.Days>.day{
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.Calendar>.Content>.top>.Days>.day>.title{
+    font-weight: 700;
+}
+.Calendar>.Content>.top>.Days>.day>.date{
+    font-size: 12px;
+    margin-top: -8px;
+}
+
+.Calendar>.Content>.top>.toright{
+    cursor: pointer;
+}
+
+.Calendar>.Content>.bottom{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+.Calendar>.Content>.bottom>.days{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Calendar>.Content>.bottom>.days>li{
+    font-size: 12px;
+    text-align: center;
+    margin-left: -18px;
+    margin-right: 18px;
+    margin-bottom: 10px;
+    background: rgba(128, 128, 128, 0.425);
+    border-radius: 20px;
+    width: 59px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.Calendar>.Content>.bottom>.days>li{
+    
+}
+
+
+.Calendar>.btnSubmit{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+.Calendar>.btnSubmit>.submit{
+    margin-right: 40px;
+    outline: none;
+    border: 1px solid transparent;
+    background: rgb(90, 190, 70);
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+@media (max-width:700px){
+    .VoterInformation,.LocationImformation,.Calendar{
+        margin-left: 10px;
+        margin-right:10px;
+    }
+    .VoterInformation>.formInfos>.top>.Username>.Input,
+    .VoterInformation>.formInfos>.top>.Middlename>.Input,
+    .VoterInformation>.formInfos>.top>.FirstName>.Input,
+    .VoterInformation>.formInfos>.top>.Job>select,
+    .VoterInformation>.formInfos>.top>.Occupation>.Input,
+    .VoterInformation>.formInfos>.top>.Address>.Input{
+        
+    }
+}
